@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    float temp=1,sum=0;
+    scanf("%d",&n);
+    for(int i=2;i<=n-1;i++)
+    {
+        sum=sum+temp;
+        temp=1/i;
+    }
+    printf("sum is %f ",)
+}
